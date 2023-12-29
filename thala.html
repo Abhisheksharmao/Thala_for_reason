@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(50deg, seagreen , olive);">
+    <h1 style="color: white; text-align:center;">Check if you are thala or not</h1>
+
+    <!-- manoj moye moye -->   <video class="ima hide" src="./manoj-tiwari-video-meme-download.mp4" width="100%" height="100%" autoplay></video>
+   
+    <!-- chipi chipi -->  <video class="im he" src="./chipi chipi chapa chapa dubi dubi daba daba tiktok cat _ Christell - Dubidubidu (LETRA).mp4" width="100%"
+     height="100%" autoplay></video>
+   
+   
+       <div class="farm">
+           <div class="ll">
+               <input type="text" name="" id="inp">
+           </div>
+           <div class="lo">
+               <button onclick="myfn()">check</button>
+           </div>
+           <p>Check for 7</p>
+       </div>
+   
+   
+   
+   
+       <script>
+           let ime = document.querySelector(".he");
+           let im = document.querySelector(".hide");
+   
+           function myfn(){
+               var userinput = document.getElementById("inp").value;
+               var lenght = userinput.length;
+               console.log(lenght);
+               if(userinput.length ===7){
+                   console.log("ooye");
+                   ime.classList.remove("he");
+                   ime.play();
+               }
+               else{
+                   console.log("moye moye");
+                   im.classList.remove("hide");
+                   im.play();
+               }
+           }
+           
+               
+           
+       </script>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+.hide{
+    display: none;
+}
+.he{
+    display: none;
+}
+.farm{
+    width: 400px ;
+    height: 400px;
+    background: white;
+    border: 2px solid blueviolet;
+    box-shadow: 5px 5px 10px whitesmoke , -5px -5px 10px wheat;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 35%;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .farm{
+        margin-left: 0;
+    }
+}
+.ll{
+    margin-top: 50%;
+}
+.ll>input{
+    border: none;
+    background: wheat;
+    width: 300px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 60px;
+}
+.lo{
+    margin-top: 30px;
+}
+.lo>button{
+    padding: 5px;
+    width: 150px;
+    color: black;
+    height: 40px ;
+    background: whitesmoke;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+.lo>button:hover{
+    background: green ;
+    color: white;
+}
